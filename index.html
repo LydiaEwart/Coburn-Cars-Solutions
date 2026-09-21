@@ -1,64 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0">
-	<title>Coburn Cars Solutions Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coburn Cars Solutions</title>
+	<!-- Requires Tailwind CSS CDN for the utility classes to render -->
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="[#3B4B5D]">
-	<tr>
-		<td>
-			<table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
-				<tr>
-					<td>
-						<strong style="font-family: 'Montserrat', sans-serif; font-size: 24px; color: [#FFFFFF];">
-							Coburn Cars Solutions
-						</strong>
-					</td>
-					<td align="right">
-						<a href="#home" style="text-decoration: none; font-family: Verdana, sans-serif; color: [#FFFFFF];">Home</a> |
-						<a href="#the-collection" style="text-decoration: none; font-family: Verdana, sans-serif; color: [#FFFFFF];">The Collection</a> |
-						<a href="#contact-us" style="text-decoration: none; font-family: Verdana, sans-serif; color: [#FFFFFF];">Contact Us</a>
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-	<!-- Hero Header Navigation -->
-<header class="fixed top-0 left-0 w-full z-40 glass-nav">
-  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-    <a href="#home" class="font-serif text-2xl font-bold text-white">Coburn Cars Solutions</a>
-    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium uppercase">
-      <a href="#home" class="text-white">Home</a>
-      <a href="#the-collection" class="text-[#DCDBDB] hover:text-white">The Collection</a>
-      <a href="#contact-us" class="text-[#DCDBDB] hover:text-white">Contact Us</a>
-    </nav>
-  </div>
-</header>
+<body class="bg-[#222121] text-[#DCDBDB] font-sans">
 
-<!-- Fullscreen Hero Section (100vh) -->
-<section id="home" class="relative w-full h-screen flex items-center justify-start overflow-hidden">
-  <!-- Background Image with Gradient Overlay -->
-  <div class="absolute inset-0 z-0">
-    <img src="hero-car.jpg" alt="Hero Image" class="w-full h-full object-cover filter brightness-[0.75]" />
-    <div class="absolute inset-0 bg-gradient-to-r-[#3C4B5C]/90 via-[#3C4B5C]/60 to-transparent"></div>
-  </div>
-
-  <!-- Left-Aligned Hero Content -->
-  <div class="relative z-10 w-full max-w-7xl mx-auto px-6">
-    <div class="max-w-2xl text-left">
-      <h1 class="font-serif text-4xl sm:text-6xl font-bold text-white mb-6">Title</h1>
-      <h2 class="text-lg sm:text-xl text-slate-300 mb-8">Subtitle</h2>
-      <a href="#the-collection" class="px-8 py-4 rounded-full gold-gradient-bg text-brand-dark font-bold text-xs uppercase">
-        Explore The Collection
-      </a>
+  <!-- Header Navigation -->
+  <header class="fixed top-0 left-0 w-full z-40 bg-[#222121]/80 backdrop-blur-md border-b border-[#DCDBDB]/10">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#home" class="text-2xl font-bold text-[#DCDBDB] tracking-wide">Coburn Cars Solutions</a>
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium uppercase tracking-wider">
+        <a href="#home" class="text-[#DCDBDB] hover:text-[#3C4B5C] transition-colors">Home</a>
+        <a href="#the-collection" class="text-[#d1d5db] hover:text-[#DCDBDB] transition-colors">The Collection</a>
+        <a href="#contact-us" class="text-[#d1d5db] hover:text-[#DCDBDB] transition-colors">Contact Us</a>
+      </nav>
     </div>
-  </div>
-</section>
-</body>
+  </header>
 
-</html>html>
+  <!-- Fullscreen Hero Section (100vh) -->
+  <section id="home" class="relative w-full h-screen flex items-center justify-start overflow-hidden">
+    <!-- Background Image & Gradient Overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="hero-car.jpg" alt="Luxury Wedding Car" class="w-full h-full object-cover filter brightness-75" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#222121]/90 via-[#222121]/60 to-transparent"></div>
+    </div>
+
+    <!-- Left-Aligned Hero Content -->
+    <div class="relative z-10 w-full max-w-7xl mx-auto px-6">
+      <div class="max-w-2xl text-left">
+        <h1 class="text-4xl sm:text-6xl font-bold text-[#DCDBDB] mb-6">Title</h1>
+        <h2 class="text-lg sm:text-xl text-[#DCDBDB] mb-8">Subtitle</h2>
+        <a href="#the-collection" class="inline-block px-8 py-4 rounded-full bg-[#1F68BF] hover:bg-[#3C4B5C] text-[#DCDBDB] font-bold text-xs uppercase tracking-widest transition-all shadow-lg">
+          Explore The Collection
+        </a>
+      </div>
+    </div>
+  </section>
+	<main>
+		<div class=
+	</main>
+</body>
+</html>
